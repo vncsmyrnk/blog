@@ -1,8 +1,69 @@
-baseURL = 'https://blog.vncsmyrnk.dev'
-locale = 'en-us'
-title = 'A boring blog about boring topics'
-theme = 'archie'
+baseURL = "https://blog.vncsmyrnk.dev"
+locale = "en-us"
+theme = "archie"
+copyright = "© vncsmyrnk"
+defaultContentLanguage = "en-US"
 
 [params]
-	mode="dark"
-	customcss = ["css/custom.css"]
+mode = "dark"
+useCDN = false
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/vncsmyrnk/blog"
+
+[[params.social]]
+name = "Linked.in"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/vncsmyrnk"
+
+[pagination]
+pagerSize = 3
+
+[languages]
+[languages.en-US]
+title = "A boring blog about boring topics"
+
+[languages.en-US.params]
+readmoretext = "Read more"
+alltagstext = "All tags"
+allpoststext = "All posts"
+
+[[languages.en-US.menu.main]]
+name = "Home"
+pageRef = "/"
+weight = 1
+
+[[languages.en-US.menu.main]]
+name = "All posts"
+pageRef = "/posts"
+weight = 2
+
+[[languages.en-US.menu.main]]
+name = "Tags"
+pageRef = "/tags"
+weight = 3
+
+[languages.pt-BR]
+title = "Um blog qualquer sobre assuntos chatos"
+
+[languages.pt-BR.params]
+readmoretext = "Leia mais"
+alltagstext = "Todas as tags"
+allpoststext = "Todos os posts"
+
+[[languages.pt-BR.menu.main]]
+name = "Início"
+pageRef = "/"
+weight = 1
+
+[[languages.pt-BR.menu.main]]
+name = "Todos os posts"
+pageRef = "/posts"
+weight = 2
+
+[[languages.pt-BR.menu.main]]
+name = "Tags"
+pageRef = "/tags"
+weight = 3
