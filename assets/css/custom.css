@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Ubuntu Sans Mono';
+  src: url('/fonts/ubuntu.woff2') format('woff2');
+  font-display: swap;
+}
+
+body {
+  font-family: 'Ubuntu Sans Mono';
+}

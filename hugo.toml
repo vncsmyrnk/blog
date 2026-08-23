@@ -1,0 +1,8 @@
+baseURL = 'https://blog.vncsmyrnk.dev'
+locale = 'en-us'
+title = 'A boring blog about boring topics'
+theme = 'archie'
+
+[params]
+	mode="dark"
+	customcss = ["css/custom.css"]
