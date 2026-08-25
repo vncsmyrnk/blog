@@ -891,6 +891,10 @@ kbd {
   transform: scale(0.95);
 }
 
+.body {
+  margin-top: 1.5rem;
+}
+
 /* Media queries for responsive design */
 @media (max-width: 37.4em) {
   .content {
