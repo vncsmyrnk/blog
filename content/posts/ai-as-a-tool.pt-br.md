@@ -4,7 +4,7 @@ title: IA como um meio de se alcançar objetivos
 description: Meu ponto de vista sobre o uso geral de IAs e o nosso papel como usuários
 date: 2026-08-23
 tldr: IA deve ser tratada como um meio de se alcançar objetivos e não o objetivo em si
-draft: true
+draft: false
 tags: [ai]
 toc: false
 ---
