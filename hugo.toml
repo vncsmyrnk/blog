@@ -18,6 +18,11 @@ name = "Linked.in"
 icon = "linkedin"
 url = "https://www.linkedin.com/in/vncsmyrnk"
 
+[[params.social]]
+name = "E-mail"
+icon = "mail"
+url = "mailto:vncsmyrnk@gmail.com"
+
 [pagination]
 pagerSize = 3
 
